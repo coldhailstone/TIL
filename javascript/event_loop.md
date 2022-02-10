@@ -12,8 +12,10 @@
     - 브라우저에서 제공하는 API
 - Callback Queue
     - 비동기 콜백 실행 전 보관하는 곳
-    - Task Queue
-    - Microtask Queue: Task Queue 보다 우선순위가 높음
+    - Task Queue<br/>
+        `setTimeout setInterval setImmediate`
+    - Microtask Queue: Task Queue 보다 우선순위가 높음<br/>
+        `Promise async nextTick()`
 - Event Loop
     - Call Stack이 비어있을 경우, Callback Queue에서 함수를 꺼내 Call Stack에 추가
 
