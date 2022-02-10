@@ -1,3 +1,5 @@
+# git
+
 ## git 전역 사용자 설정
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
