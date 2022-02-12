@@ -5,3 +5,6 @@
 
 ## javascript
 * [event loop](./javascript/event_loop.md)
+
+## seo
+* [base](./seo/base.md)
