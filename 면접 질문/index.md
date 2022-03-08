@@ -3,7 +3,7 @@
     - 웹 브라우저 클라이언트로부터 HTTP 요청을 받아 <b>정적인 컨텐츠</b>(.html .jpeg .css 등)를 제공하는 컴퓨터 프로그램
     - HTTP 프로토콜을 기반으로 하여 클라이언트(웹 브라우저 또는 웹 크롤러)의 요청을 서비스 하는 기능을 담당한다.
     - Ex) Apache Server, Nginx, IIS 등
-- WAS (Web Application)
+- WAS (Web Application Server)
    - DB 조회나 다양한 로직 처리를 요구하는 <b>동적인 컨텐츠</b>를 제공하기 위해 만들어진 Application Server
    - WAS = Web Server + Web Container
    - Ex) Tomcat, JBoss, Jeus, Web Sphere 등
