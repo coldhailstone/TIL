@@ -121,3 +121,15 @@
   - 출력: true
   - 정답: stack
   - 풀이: 여는 괄호는 배열에 넣고 닫힌 괄호는 비교해서 배열에서 뺀다. 최종적으로 배열이 비어있으면 정답은 true
+---
+### ES6 문법
+- const and let
+- Arrow functions(화살표 함수)
+- Template Literals(템플릿 리터럴)
+- Default parameters(기본 매개 변수)
+- Array and object destructing(비구조화 할당)
+- Import and export(가져오기 및 내보내기)
+- Promises
+- Spread operator(확산 연산자)
+- Classes
+- for…of
