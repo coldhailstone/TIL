@@ -3,7 +3,7 @@
     - 웹 브라우저 클라이언트로부터 HTTP 요청을 받아 <b>정적인 컨텐츠</b>(.html .jpeg .css 등)를 제공하는 컴퓨터 프로그램
     - HTTP 프로토콜을 기반으로 하여 클라이언트(웹 브라우저 또는 웹 크롤러)의 요청을 서비스 하는 기능을 담당한다.
     - Ex) Apache Server, Nginx, IIS 등
-- WAS (Web Application)
+- WAS (Web Application Server)
    - DB 조회나 다양한 로직 처리를 요구하는 <b>동적인 컨텐츠</b>를 제공하기 위해 만들어진 Application Server
    - WAS = Web Server + Web Container
    - Ex) Tomcat, JBoss, Jeus, Web Sphere 등
@@ -36,7 +36,7 @@
 ### REST(Representational State Transfer) API 의 설명과 장점
 - 기본개념
   - 자원을 이름으로 구분하여 해당 자원의 상태(정보)를 주고 받는 모든 것을 의미한다.
-  - HTTP URI를 통해 자원(Resource)을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD Operation을 적용하는 것을 의미한다.
+  - HTTP URI를 통해 자원(Resource)을 명시하고, HTTP Method(GET, POST, PUT, DELETE)를 통해 해당 자원에 대한 CRUD Operation을 적용하는 것을 의미한다.
 - 장점
   - HTTP 프로토콜의 인프라를 그대로 사용하므로 REST API 사용을 위한 별도의 인프라를 구출할 필요가 없다.
   - HTTP 프로토콜의 표준을 최대한 활용하여 여러 추가적인 장점을 함께 가져갈 수 있게 해준다.
@@ -132,4 +132,4 @@
 - Promises
 - Spread operator(확산 연산자)
 - Classes
-- for…of
+- for…of\
